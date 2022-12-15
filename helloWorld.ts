@@ -21,4 +21,7 @@ let stringArray: string[] = ["kayla", "david", "nick"];
 stringArray.push(firstName);
 console.log(stringArray);
 
+// This converts the file into ES module
+// All we really need to know for now is that it just gets of some of
+// annoying "redeclaring" warnings we are getting from TypeScript
 export { };
