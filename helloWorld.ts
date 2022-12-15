@@ -14,4 +14,11 @@ function uppercaseString(str: string): string {
 let uppercaseName: string = uppercaseString(firstName);
 console.log(uppercaseName);
 
+// Now that we have covered a bit about basic data types and functions,
+// let's talk a little bit about arrays
+
+let stringArray: string[] = ["kayla", "david", "nick"];
+stringArray.push(firstName);
+console.log(stringArray);
+
 export { };
